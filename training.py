@@ -23,8 +23,8 @@ spark.sparkContext._jsc.hadoopConfiguration().set("fs.s3a.aws.credentials.provid
                                      "com.amazonaws.auth.InstanceProfileCredentialsProvider,com.amazonaws.auth.DefaultAWSCredentialsProviderChain")
 spark.sparkContext._jsc.hadoopConfiguration().set("fs.AbstractFileSystem.s3a.impl", "org.apache.hadoop.fs.s3a.S3A")
 
-spark.sparkContext._jsc.hadoopConfiguration().set("fs.s3a.access.key","ASIAQE4M2SYI6L27GPS7")
-spark.sparkContext._jsc.hadoopConfiguration().set("fs.s3a.secret.key","3FXYNTgqGueS9lk5nEZl5FmroFSK3X7LGNcaSQVM")
+spark.sparkContext._jsc.hadoopConfiguration().set("fs.s3a.access.key","ASIAQE4M2SYIZRZ3C7EN")
+spark.sparkContext._jsc.hadoopConfiguration().set("fs.s3a.secret.key","vsLYkGNPklMGzuMGYk/X9O6y9GdWWRIOcMuro5wH")
 spark.sparkContext._jsc.hadoopConfiguration().set("fs.s3a.endpoint", "s3.us-east-1.amazonaws.com")
 
 
